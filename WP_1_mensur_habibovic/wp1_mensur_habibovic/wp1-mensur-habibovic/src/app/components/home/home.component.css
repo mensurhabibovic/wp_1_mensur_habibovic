@@ -1,0 +1,78 @@
+.welcome-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .welcome-container h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .movie-highlights {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .movie-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .movie-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .movie-card h3 {
+    color: #007acc;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .movie-card p {
+    color: #444;
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
+  
+  .more-info {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .more-info a {
+    color: #007acc;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .more-info a:hover {
+    text-decoration: underline;
+  }
+  

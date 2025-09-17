@@ -1,0 +1,38 @@
+:root {
+    --primary: #20232a;
+    --accent: #61dafb;
+    --bg: #f0f0f0;
+    --text: #333;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+  }
+  
+  header, footer {
+    background-color: var(--primary);
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  a {
+    pointer-events: auto; /* Ensure pointer events are enabled */
+  }
+    

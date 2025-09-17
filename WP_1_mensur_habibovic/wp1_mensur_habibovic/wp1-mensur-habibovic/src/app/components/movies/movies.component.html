@@ -1,0 +1,9 @@
+<div class="movies-grid">
+    <div *ngFor="let movie of movies" class="card" (click)="onSelect(movie)">
+      <img [src]="movie.imageUrl" alt="{{ movie.title }}">
+      <h3>{{ movie.title }}</h3>
+      <p>{{ movie.description }}</p>
+      <span>Cijena: {{ movie.price }} KM</span>
+    </div>
+  </div>
+  
